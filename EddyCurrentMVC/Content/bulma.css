@@ -8048,7 +8048,7 @@ label.panel-block {
     }
 
         .tabs li.is-active a {
-            border-bottom-color: #3273dc;
+            border-bottom-color: #02028C;
             color: #3273dc;
         }
 
@@ -8056,7 +8056,7 @@ label.panel-block {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        border-bottom-color: #dbdbdb;
+        border-bottom-color: #02028C;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         display: -webkit-box;
@@ -8121,12 +8121,12 @@ label.panel-block {
 
         .tabs.is-boxed a:hover {
             background-color: whitesmoke;
-            border-bottom-color: #dbdbdb;
+            border-bottom-color: #02028C;
         }
 
     .tabs.is-boxed li.is-active a {
         background-color: white;
-        border-color: #dbdbdb;
+        border-color: #02028C;
         border-bottom-color: transparent !important;
     }
 
@@ -8139,7 +8139,7 @@ label.panel-block {
     }
 
     .tabs.is-toggle a {
-        border-color: #dbdbdb;
+        border-color: #02028C;
         border-style: solid;
         border-width: 1px;
         margin-bottom: 0;
@@ -8148,7 +8148,7 @@ label.panel-block {
 
         .tabs.is-toggle a:hover {
             background-color: whitesmoke;
-            border-color: #b5b5b5;
+            border-color: #02028C;
             z-index: 2;
         }
 
@@ -8165,9 +8165,9 @@ label.panel-block {
     }
 
     .tabs.is-toggle li.is-active a {
-        background-color: #3273dc;
-        border-color: #3273dc;
-        color: #fff;
+        background-color: black;
+        border-color: #02028C;
+        color: white;
         z-index: 1;
     }
 
@@ -8196,7 +8196,7 @@ label.panel-block {
     }
 
     .tabs.is-large {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
 .column {
@@ -10387,7 +10387,7 @@ label.panel-block {
     }
 
     .hero.is-light .subtitle {
-        color: rgba(54, 54, 54, 0.9);
+        color: black;
     }
 
         .hero.is-light .subtitle a:not(.button),

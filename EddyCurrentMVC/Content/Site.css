@@ -31,6 +31,10 @@ textarea {
     font-size: 24px;
     color:blue;
 }
+.eddyNavTab {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+}
 /*.hero-body {
     background-image: url('EddyCurrentLLCLogoTransparentBackground.png');
     background-size: cover;

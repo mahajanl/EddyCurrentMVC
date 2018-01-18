@@ -8,63 +8,61 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Fjalla+One|Questrial|Work+Sans" rel="stylesheet">
     @* bulma sheets *@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" />
+    @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" />*@
     <link href="~/Content/bulma.css" rel="stylesheet" />
     @* MVC stuff *@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+    @* NAV TABS line 8198 in css file *@
+    <div class="tabs eddyNavTab is-toggle is-fullwidth is-large is-dark">
+        <ul>
+            <li class="is-active">
+                <a>
+                    @*<span class="icon is-small"><i class="fas fa-image"></i></span>*@
+                    <span>Get a Quote</span>
+                </a>
+            </li>
+            <li>
+                <a >
+                    <span>Services Offered</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <span>The ECS, LLC Approach</span>
+                </a>
+            </li>
+            <li>
+                <a href="~/Views/Home/About.cshtml">
+                    <span>About ECS, LLC</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <span>ECS, LLC Home</span>
+                </a>
+            </li>
+        </ul>
+    </div>
     @* HERO BANNER *@
     <container>
         <section class="hero is-light">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                        <figure>
-                            <img class="eddyLogo" src="~/Content/EddyCurrentLLCLogoGrey.png" />
-                        </figure>
+                    <figure>
+                        <img class="eddyLogo" src="~/Content/ECSFinalLogoTransparentBAckground.png" />
+                    </figure>
                     <h2 class="subtitle logoSubtitle">
+                        @* line 10389 in bulma *@
                         Over 30 years of experience helping businesses test, sort, and efficiently produce high-quality parts and materials.
                     </h2>
                 </div>
             </div>
         </section>
     </container>
-    @* NAV TABS *@
-    <div class="tabs is-toggle is-fullwidth is-large">
-        <ul>
-            <li class="is-active">
-                <a>
-                    <span class="icon is-small"><i class="fas fa-image"></i></span>
-                    <span>Get a Quote</span>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <span class="icon is-small"><i class="fas fa-image"></i></span>
-                    <span>Services Offered</span>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <span class="icon is-small"><i class="fas fa-music"></i></span>
-                    <span>The ECS, LLC Approach</span>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <span class="icon is-small"><i class="fas fa-film"></i></span>
-                    <span>About ECS, LLC</span>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
-                    <span>ECS, LLC Home</span>
-                </a>
-            </li>
-        </ul>
-    </div>
+
 
     @RenderBody()
 

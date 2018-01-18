@@ -152,8 +152,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bulma.css" />
+    <Content Include="Content\ECSFinalLogoTransparentBAckground.png" />
     <Content Include="Content\EddyCurrentLLCLogoGrey.png" />
-    <Content Include="Content\EddyCurrentLLCLogoTransparentBackground.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
