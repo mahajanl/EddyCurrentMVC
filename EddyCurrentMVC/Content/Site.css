@@ -23,9 +23,20 @@ textarea {
     max-width: 280px;
 }
 .eddyLogo{
-    max-height: 250px;
+    max-height: 475px;
     max-width:100%;
 }
+.logoSubtitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    color:blue;
+}
+/*.hero-body {
+    background-image: url('EddyCurrentLLCLogoTransparentBackground.png');
+    background-size: cover;
+    height:620px;
+    width:100%;
+}*/
 /*ALL GOOGLE FONTS*/
 /*font-family: 'Archivo Black', sans-serif;
 font-family: 'Fjalla One', sans-serif;

@@ -9,6 +9,7 @@
     @* bulma sheets *@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" />
+    <link href="~/Content/bulma.css" rel="stylesheet" />
     @* MVC stuff *@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -20,9 +21,9 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                         <figure>
-                            <img class="eddyLogo" src="~/Content/EddyCurrentLLCLogoTransparentBackground.png" />
+                            <img class="eddyLogo" src="~/Content/EddyCurrentLLCLogoGrey.png" />
                         </figure>
-                    <h2 class="subtitle">
+                    <h2 class="subtitle logoSubtitle">
                         Over 30 years of experience helping businesses test, sort, and efficiently produce high-quality parts and materials.
                     </h2>
                 </div>
@@ -38,7 +39,7 @@
                     <span>Get a Quote</span>
                 </a>
             </li>
-            <li class="is-active">
+            <li>
                 <a>
                     <span class="icon is-small"><i class="fas fa-image"></i></span>
                     <span>Services Offered</span>
