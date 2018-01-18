@@ -9,15 +9,32 @@
     @* bulma sheets *@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" />
-    @* MVC sheets *@
+    @* MVC stuff *@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Eddy Current Solutions, LLC
+                </h1>
+                <h2 class="subtitle">
+                    Over 30 years of experience helping businesses test, sort, and efficiently produce high-quality parts and materials.
+                </h2>
+            </div>
+        </div>
+    </section>
     @* NAV TABS *@
     <div class="tabs is-toggle is-fullwidth is-large">
         <ul>
+            <li class="is-active">
+                <a>
+                    <span class="icon is-small"><i class="fas fa-image"></i></span>
+                    <span>Get a Quote</span>
+                </a>
+            </li>
             <li class="is-active">
                 <a>
                     <span class="icon is-small"><i class="fas fa-image"></i></span>
@@ -44,6 +61,8 @@
             </li>
         </ul>
     </div>
+
+    @RenderBody()
 
     @*<div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
