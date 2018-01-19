@@ -191,6 +191,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\GetQuote.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\MessageSent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
