@@ -26,5 +26,12 @@ namespace EddyCurrentMVC.Controllers
 
             return View();
         }
+
+        public ActionResult GetQuote()
+        {
+            ViewBag.Message = "Get a Quote.";
+
+            return View();
+        }
     }
 }
