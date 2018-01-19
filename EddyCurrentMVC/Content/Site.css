@@ -4,6 +4,8 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: font-family: 'Questrial', sans-serif;
@@ -35,6 +37,30 @@ textarea {
     font-family: 'Questrial', sans-serif;
     font-size: 36px;
 }
+.hero{
+    margin-top: 0px;
+}
+.tabs{
+    margin-bottom: 0px;
+}
+.quoteTile {
+    background-color: black;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+.quoteTitle {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+.aboutTile{
+    background-color: darkblue;
+    color:white;
+}
+.consultTile{
+    background-color: white;
+}
 .tileTitle {
     font-family: 'Questrial', sans-serif;
     font-size: 36px;
@@ -43,6 +69,7 @@ textarea {
 .tileTitleSmall {
     font-family: 'Questrial', sans-serif;
     font-size: 24px;
+    color:darkslategray;
 }
 .listOfServices {
         font-family: 'Archivo Black', sans-serif;

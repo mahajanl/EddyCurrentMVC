@@ -33,5 +33,12 @@ namespace EddyCurrentMVC.Controllers
 
             return View();
         }
+
+        public ActionResult Services()
+        {
+            ViewBag.Message = "Services Offered.";
+
+            return View();
+        }
     }
 }
