@@ -35,6 +35,20 @@ textarea {
     font-family: 'Questrial', sans-serif;
     font-size: 36px;
 }
+.tileTitle {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color:black;
+}
+.tileTitleSmall {
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+}
+.listOfServices {
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 20px;
+        color: darkblue;
+    }
 /*.hero-body {
     background-image: url('EddyCurrentLLCLogoTransparentBackground.png');
     background-size: cover;
