@@ -58,8 +58,10 @@ textarea {
     background-color: darkblue;
     color:white;
 }
-.consultTile{
+.consultTile {
     background-color: white;
+    font-family: 'Questrial', sans-serif;
+
 }
 .tileTitle {
     font-family: 'Questrial', sans-serif;
