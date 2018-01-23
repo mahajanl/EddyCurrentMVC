@@ -39,7 +39,7 @@ namespace EddyCurrentMVC.Controllers
             {
                 var body = "<p>Email From: {0} ({1})</p><p>Message:</p><p>{2}</p>";
                 var message = new MailMessage();
-                message.To.Add(new MailAddress("recipient@gmail.com"));  // replace with valid value 
+                message.To.Add(new MailAddress("bablu.ratnaparkhi@gmail.com"));  // replace with valid value 
                 message.From = new MailAddress("sender@outlook.com");  // replace with valid value
                 message.Subject = "Your email subject";
                 message.Body = string.Format(body, model.FromName, model.FromEmail, model.Message);
