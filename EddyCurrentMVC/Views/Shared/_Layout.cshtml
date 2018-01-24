@@ -15,18 +15,20 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    @* NAVBAR ATTEMPT *@
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    @* NAVBAR ATTEMPT line in bulma 6500, brand and item 7203 *@
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-                <img src="~/Content/EddyCurrentLLCLogoGrey.png" alt="Eddy Current Solutions, LLC" width="100" height="50">
+            <a class="navbar-item is-active" href="https://bulma.io">
+                Get a Quote
             </a>
             <a class=" navbar-item">
-                </a>            
+                Services
+            </a>
+            <span>Get a Quote</span>
             <button class="button navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span>Get a Quote</span>
+                <span>Services</span>
+                <span>About ECS, LLC</span>
             </button>
         </div>
     </nav>
@@ -73,8 +75,35 @@
                         <div class="hero-body">
                             <div class="container">
                                 <div class="columns">
-                                    <div class="is-4">
-
+                                    <div class="column is-6">
+                                        <h3>Eddy Current Solutions, LLC</h3>
+                                        <ul>
+                                            <li>Get a Quote</li>
+                                            <li>Contact ECS, LLC</li>
+                                            <li>Services</li>
+                                            <li>About ECS, LLC</li>
+                                        </ul>
+                                    </div>
+                                    <div class="column is-3">
+                                        <h3>Our Partners</h3>
+                                        <ul>
+                                            <li><a href="http://www.advanceddesignindustries.com">Advanced Design Industries</a></li>
+                                            <li>American Axle</li>
+                                            <li>Delphi Engine</li>
+                                        </ul>
+                                    </div>
+                                    <div class="column is-3">
+                                        <h3>Contact</h3>
+                                        <ul>
+                                            <li><a href="mailto:bablu.ratnaparkhi@gmail.com">Eddy Current Solutions,LLC</a></li>
+                                            <li><address>
+                                                4686 French Creek Road, 
+                                                Sheffield Village, Ohio, 44054
+                                                </address></li>
+                                            <li><address>
+                                                
+                                                </address></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
