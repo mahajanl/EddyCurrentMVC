@@ -1,7 +1,99 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About Eddy Current Solutions, LLC";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+
+<div class="tile is-ancestor">
+    <div class="tile is-3 is-vertical is-parent">
+        @* LITTLE LEFT SIDE TILES *@
+        <div class="tile is-child box quoteTile">
+            <a href="~/Home/GetQuote"><p class="title quoteTitle">Subject Matter Expert</p></a>
+            <hr/>
+            <ul>
+                <li>Eddy Current Testing of heat treat process and surface defects</li>
+                <li>Induction and furnace heat treatment of automotive components</li>
+                <li>Ultrasonic and High Pressure Cleaning of automotive components</li>
+                <li>Laser safety officer for industrial equipment</li>
+            </ul>
+        </div>
+
+        <div class="tile is-child box quoteTile">
+            <p class="title quoteTitle">International Work Experience</p>
+            <p>Multiple projects in Spain, China, Brazil, and South Korea</p>
+            <ul>
+                <li>Designed, built, qualified, and installed heat trat equipment and Eddy Current inspection system</li>
+                <li>Trained associated personnel on use of equipment and systems</li>
+                <li>Created Eddy Current inspection standard masters for heat treat process</li>
+                <li>Provided training on how to create standard masters on heat treat equipment</li>
+                <li>Trained personnel on creating documentation for heat treat process and Eddy Current inspection systems</li>
+            </ul>
+        </div>
+    </div>
+@* THIS IS THE BIG CENTER TILE *@
+    <div class="tile is-parent">
+        <div class="tile is-child box consultTile">
+            <p class="title aboutTileTitle has-text-centered">MAJOR COST SAVING PROJECTS</p>
+            <hr/>
+            <p class="tileTitleSmall">
+                DELPHI
+            </p>
+            <p class="title moneySaved">$1.2 Million saved</p>
+            <ul class="howSavedMoney has-text-centered">
+                <li>Created Eddy Current system to identify poorly heat treated wheel bearing studs to avoid a major product recall</li>
+            </ul>
+
+            <p class="tileTitleSmall">
+                GENERAL MOTORS
+            </p>
+            <p class="title moneySaved">$1.0 Million saved</p>
+            <ul class="howSavedMoney has-text-centered">
+                <li>Developed automated Eddy Current surface defect system to replace MAgnetic Particle Inspectin system</li>
+            </ul>
+
+            <p class="tileTitleSmall">
+                GENERAL MOTORS
+            </p>
+            <p class="title moneySaved">$250,000 saved</p>
+            <ul class="howSavedMoney has-text-centered">
+                <li>
+                    Designed Eddy Current instrument capable of dual applications such as material testing and crack detection, eliminating
+                    the need to maintain spare instruments
+                </li>
+            </ul>
+
+            <p class="tileTitleSmall">
+                GENERAL MOTORS
+            </p>
+            <p class="title moneySaved">$1.5 Million saved</p>
+            <ul class="howSavedMoney has-text-centered">
+                <li>
+                    Designed ultrasonic probe to check wheel bearing assembly n fully asembled cars to avoid undue product holds at assembly plants 
+                    and dealerships
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tile is-3 is-vertical is-parent">
+        @* LITTLE RIGHT SIDE TILES *@
+        <div class="tile is-child box aboutTile">
+            <a href="~/Home/GetQuote"><p class="title quoteTitle">Request a Quote</p></a>
+            <p>
+                ECS, LLC can help reduce your costs and improve your overall bottom line with our experience and knowledge.
+                Send us an email or give us a call. We'd love to help.
+            </p>
+            <button href="~/Home/GetQuote">Get Quote</button>
+        </div>
+
+        <div class="tile is-child box quoteTile">
+            <a href="~/Home/About"><p class="title quoteTitle">A Different Point of View with 30 years of Experience</p></a>
+            <p>
+                Bablu Ratnaparkhi of Eddy Current Solutions, LLC, developed his own methodology of non-destructive testing, system design
+                and assembly, and sorting through his 30+ years of work with General Motors, Delphi, and AmericanAxle.
+            </p>
+            <button href="~/Home/About">More About Bablu</button>
+        </div>
+    </div>
+</div>
 
 <p>Use this area to provide additional information.</p>

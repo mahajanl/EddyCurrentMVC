@@ -54,16 +54,38 @@ textarea {
     font-size: 36px;
     color: white;
 }
+    .quoteTile li {
+        margin-bottom: 10px;
+    }
 .aboutTile {
     background-color: darkblue;
     color: white;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
 }
+    .aboutTile li{
+        margin-bottom: 10px;
+    }
+
 .consultTile {
     background-color: white;
-    font-family: 'Questrial', sans-serif;
+    /*font-family: 'Questrial', sans-serif;*/
 
+}
+.aboutTileTitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40PX;
+    color: black;
+}
+.moneySaved {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 28px;
+    color: black;
+}
+.howSavedMoney {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: black;
 }
 .tileTitle {
     font-family: 'Questrial', sans-serif;
