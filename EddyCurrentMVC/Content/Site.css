@@ -81,6 +81,11 @@ textarea {
     font-size: 40PX;
     color: black;
 }
+.ulTitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    color: black;
+}
 .moneySaved {
     font-family: 'Archivo Black', sans-serif;
     font-size: 28px;
@@ -100,7 +105,7 @@ textarea {
     font-family: 'Questrial', sans-serif;
     font-size: 24px;
     color:darkslategray;
-    text-align: right;
+    padding-left: 40px;
 }
 .listOfServices {
         font-family: 'Archivo Black', sans-serif;
