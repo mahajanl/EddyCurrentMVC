@@ -33,6 +33,10 @@ textarea {
     font-size: 24px;
     color:blue;
 }
+.subtitle2 {
+    font-family: 'Questrial', sans-serif;
+    color: #010048;
+}
 .eddyNavTab {
     font-family: 'Questrial', sans-serif;
     font-size: 36px;
@@ -58,7 +62,7 @@ textarea {
         margin-bottom: 10px;
     }
 .aboutTile {
-    background-color: darkblue;
+    background-color: #010048;
     color: white;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
@@ -103,6 +107,9 @@ textarea {
         font-size: 20px;
         color: black;
     }
+.footer li{
+    text-align: right;
+}
 /*.hero-body {
     background-image: url('EddyCurrentLLCLogoTransparentBackground.png');
     background-size: cover;
