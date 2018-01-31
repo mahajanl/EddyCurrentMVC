@@ -96,6 +96,7 @@ textarea {
     font-family: 'Questrial', sans-serif;
     font-size: 24px;
     color:darkslategray;
+    text-align: right;
 }
 .listOfServices {
         font-family: 'Archivo Black', sans-serif;
