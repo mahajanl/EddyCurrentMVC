@@ -114,6 +114,9 @@ h3.subtitle2 {
     font-weight:500;
 }
 
+.indexPics{
+    margin: 10px 5px 10px 5px;
+}
 .pointOfView {
     margin: 20px 30px 50px 50px;
 }
@@ -137,12 +140,18 @@ h2.viewText  {
     margin-right: 0;
     text-align:right;
 }
-
+#pic1{
+    rotation:90deg;
+}
+.aboutImage {
+    margin-left:80px;
+    margin-top:200px;
+}
 .trainingBackground h1 {
     font-size: 36px;
     font-family: 'Questrial', sans-serif;
     margin-bottom: 20px;
-    text-align:center;
+    text-align: center;
 }
 
 .trainingBackground h2 {
