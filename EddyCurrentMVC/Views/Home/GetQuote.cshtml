@@ -3,64 +3,48 @@
     ViewBag.Title = "Get a Quote";
 }
 
-<h2>Get a Quote</h2>
+<h2 class="quotePageTitle">Get a Quote</h2>
 
-<div class="tile is-ancestor">
-    <div class="tile is-parent is-dark">
-        <div class="is-child is-2">
+<div class="container">
+    <div class="col-md-2">
 
-        </div>
-        <div class="tile formTile is-child is-8 is-light">
-            <div class="field">
+    </div>
+
+    <div class="col-md-8 quoteForm">
+        <form action="https://formspree.io/babluratnaparkhi@gmail.com"
+              method="POST">
+            <div class="row">
                 <label class="label is-large">Name</label>
-                <div class="control">
-                    <input class="input is-large" type="text" placeholder="Your Name">
-                </div>
+                <input type="text" name="name" class="input is-large">
             </div>
 
-            <div class="field">
-                <label class="label is-large">Email address</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input is-large" type="text" placeholder="Email Address" value="bulma">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                    </span>
-                </div>
+            <div class="row">
+                <label class="label is-large">Your Email address</label>
+                <input type="email" name="_replyto" class="input is-large">
             </div>
 
-            <div class="field">
-                <label class="label is-large">Subject</label>
-                <div class="control has-icons-left has-icons-right">
-                    <input class="input is-large" type="email" placeholder="Subject" value="hello">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </span>
+            <div class="row">
+                
+                <div class="row">
+                    <p class="messageLabel">
+                        Please explain the component you'd like us to check, the materials the component is made of
+                        and what the problems are with those components.
+                    </p>
+                    <p class="messageLabel">You can also tell us about a process concern,
+                        or simply say you'd like a consultation.
+                    </p>
+
                 </div>
+                <textarea class="textarea" name="message" placeholder="What do you need help with?"></textarea>
             </div>
-
-            @* type of defect, cracks, heat treat; part material what kind of steel;  *@
-
-            <div class="field">
-                <label class="label is-large">Message</label>
-                <div class="control">
-                    <textarea class="textarea" placeholder="What do you need help with?"></textarea>
-                </div>
+            <div class="row">
+                <input type="submit" value="Send">
             </div>
+        </form>
+    </div>
 
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button is-link">Submit</button>
-                </div>
-            </div>
-        </div>
-        <div class="is-child is-2">
+    <div class="col-md-2">
 
-        </div>
     </div>
 </div>
+

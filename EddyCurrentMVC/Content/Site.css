@@ -103,8 +103,8 @@ h3.subtitle2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 40PX;
     color: black;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 12px;
 }
 .ulTitle {
     font-family: 'Questrial', sans-serif;
@@ -114,7 +114,13 @@ h3.subtitle2 {
     font-weight:500;
 }
 
-.indexPics{
+.innoApp {
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+} 
+
+.indexPics {
     margin: 10px 5px 10px 5px;
 }
 .pointOfView {
@@ -140,12 +146,31 @@ h2.viewText  {
     margin-right: 0;
     text-align:right;
 }
+.indexHero h2 {
+    margin-bottom:20px;
+}
 #pic1{
-    rotation:90deg;
+    transform:rotate(90deg);
+}
+
+.savedMillions {
+    color:black;
+    margin-bottom: 20px;
 }
 .aboutImage {
-    margin-left:80px;
-    margin-top:200px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+
+.international {
+    padding-top: 100px;
+}
+
+#aboutImage2 {
+    margin-left: 80px;
+    margin-top: 200px;
+    transform: rotate(90deg);
 }
 .trainingBackground h1 {
     font-size: 36px;
@@ -215,6 +240,30 @@ h2.viewText  {
 /*get quote page*/
 .formTile{
     margin:auto;
+}
+
+.quoteForm {
+    color: black;
+    font-size: 19px;
+    font-family: 'Questrial', sans-serif;
+}
+
+    .quoteForm label {
+        color: black;
+        font-size: 18px;
+        font-family: 'Questrial', sans-serif;
+    }
+
+.messageLabel {
+    max-width: 700px;
+    margin-left: 20px;
+}
+
+.quotePageTitle {
+    color: black;
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
 }
 /*.hero-body {
     background-image: url('EddyCurrentLLCLogoTransparentBackground.png');
