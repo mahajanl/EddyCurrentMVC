@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Eddy Current Solutions, LLC</title>
+    @* google fonts *@
+    <link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Fjalla+One|Questrial|Work+Sans" rel="stylesheet">
+    @* bulma sheets *@
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" />*@
+    <link href="~/Content/bulma.css" rel="stylesheet" />
+    @* MVC stuff *@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    @* NAV TABS line 8198 in css file *@
+    <div class="tabs eddyNavTab is-toggle is-fullwidth is-large is-dark is-12-mobile">
+        <ul>
+            <li class="is-active">
+                <a href="~/Home/GetQuote">
+                    @*<span class="icon is-small"><i class="fas fa-image"></i></span>*@
+                    <span>Get a Quote</span>
+                </a>
+            </li>
+            <li>
+                <a href="~/Home/Services">
+                    <span>Services Offered</span>
+                </a>
+            </li>
+            
+            </li>
+            <li>
+                <a href="~/Home/About">
+                    <span>About ECS</span>
+                </a>
+            </li>
+            <li>
+                <a href="~/Home/Index">
+                    <span>ECS Home</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    @RenderBody()
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <container>
+                    <section class="hero is-light">
+                        <div class="hero-body">
+                            <div class="container">
+                                <div class="columns">
+                                    <div class="column is-5 has-text-right">
+                                        <h3><strong>Eddy Current Solutions, LLC</strong></h3>
+                                        <ul>
+                                            <li>Get a Quote</li>
+                                            <li>Contact ECS</li>
+                                            <li>Services</li>
+                                            <li>About ECS</li>
+                                        </ul>
+                                    </div>
+                                    <div class="column is-5 has-text-right">
+                                        <h3><strong>Contact Us</strong></h3>
+                                        <ul>
+                                            <li>Email us at: <a href="mailto:bablu.ratnaparkhi@gmail.com">Eddy Current Solutions,LLC</a></li>
+                                            <li>
+                                                <address>
+                                                    4686 French Creek Road,
+                                                    Sheffield Village, Ohio, 44054
+                                                </address>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </container>
+            </div>
+            <div class="content has-text-centered">
+                <p>
+                    &copy; @DateTime.Now.Year <strong>Eddy Current Solutions</strong>, LLC
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

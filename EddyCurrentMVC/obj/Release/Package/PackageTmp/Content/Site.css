@@ -1,0 +1,279 @@
+﻿body {
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: font-family: 'Questrial', sans-serif;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.eddyLogo{
+    max-height: 320px;
+    max-width:100%;
+}
+h1.logoSubtitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 28px;
+    color:blue;
+}
+h3.subtitle2 {
+    font-family: 'Questrial', sans-serif;
+    color: #010048;
+    font-size: 32px;
+}
+.eddyNavTab {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+}
+.hero{
+    margin-top: 0px;
+    padding-bottom:40px;
+}
+.tabs{
+    margin-bottom: 0px;
+}
+.quoteTile {
+    background-color: black;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+.quoteTile button{
+    float:right;
+}
+.quoteTitle {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+    .quoteTile li {
+        margin-bottom: 10px;
+    }
+.aboutTile {
+    background-color: #010048;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+.aboutTile button{
+    float:right;
+}
+    .aboutTile li{
+        margin-bottom: 10px;
+    }
+
+.consultTile {
+    background-color: white;
+    /*font-family: 'Questrial', sans-serif;*/
+
+}
+.indexColumns {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.indexColumns button {
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    display: block;
+    margin:auto;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: white;
+}
+
+.aboutTileTitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40PX;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+.ulTitle {
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    color: black;
+    font-weight:500;
+}
+
+.innoApp {
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+} 
+
+.indexPics {
+    margin: 10px 5px 10px 5px;
+}
+.pointOfView {
+    margin: 20px 30px 50px 50px;
+}
+.projects h1,
+.pointOfView h1{
+    font-size: 36px;
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 20px;
+    text-align:center;
+}
+.projects h2,
+.pointOfView h2{
+    font-size: 28px;
+    font-family: 'Questrial', sans-serif;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+h2.viewText  {
+    margin-left: 20%;
+    margin-right: 0;
+    text-align:right;
+}
+.indexHero h2 {
+    margin-bottom:20px;
+}
+#pic1{
+    transform:rotate(90deg);
+}
+
+.savedMillions {
+    color:black;
+    margin-bottom: 20px;
+}
+.aboutImage {
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+
+.international {
+    padding-top: 100px;
+}
+
+#aboutImage2 {
+    margin-left: 80px;
+    margin-top: 200px;
+    transform: rotate(90deg);
+}
+.trainingBackground h1 {
+    font-size: 36px;
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.trainingBackground h2 {
+    font-size: 24px;
+    font-family: 'Questrial', sans-serif;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.moneySaved {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 28px;
+    color: black;
+}
+.howSavedMoney {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left:50px;
+    margin-right:40px;
+}
+.tileTitle {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color:black;
+}
+.tileTitleSmall {
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    color:darkslategray;
+    padding-left: 40px;
+}
+.components {
+}
+.servicesList {
+    margin: 30px 15px 20px 15px;
+}
+
+.listOfServices {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.listOfServices li {
+    margin-bottom: 9px;
+}
+
+.otherServices {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 19px;
+    color: black;
+}
+.otherServices li{
+    margin-bottom: 14px;
+    line-height: 22px;
+}
+
+.footer li{
+    text-align: right;
+}
+
+/*get quote page*/
+.formTile{
+    margin:auto;
+}
+
+.quoteForm {
+    color: black;
+    font-size: 19px;
+    font-family: 'Questrial', sans-serif;
+}
+
+    .quoteForm label {
+        color: black;
+        font-size: 18px;
+        font-family: 'Questrial', sans-serif;
+    }
+
+.messageLabel {
+    max-width: 700px;
+    margin-left: 20px;
+}
+
+.quotePageTitle {
+    color: black;
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+/*.hero-body {
+    background-image: url('EddyCurrentLLCLogoTransparentBackground.png');
+    background-size: cover;
+    height:620px;
+    width:100%;
+}*/
+/*ALL GOOGLE FONTS*/
+/*font-family: 'Archivo Black', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Questrial', sans-serif;*/
