@@ -225,6 +225,10 @@ h2.viewText  {
     margin: 30px 15px 20px 15px;
 }
 
+.servicesList li {
+    padding-right: 15px;
+}
+
 .listOfServices {
     font-family: 'Archivo Black', sans-serif;
     font-size: 20px;
